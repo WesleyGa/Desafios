@@ -10,11 +10,11 @@ public class DesafioOperadorA {
 
 		// Minha resolução
 
-		int a = (int) Math.pow((6 * (3 + 2)), 2) / (3 * 2);
-		int b = (int) Math.pow((1 - 5) * (2 - 7) / 2, 2);
-		int c = (int) Math.pow(a - b, 3);
-		int e = (int) Math.pow(10, 3);
-		int d = (int) (c / e);
+		double a = Math.pow((6 * (3 + 2)), 2) / (3 * 2);
+		double b = Math.pow((1 - 5) * (2 - 7) / 2, 2);
+		double c = Math.pow(a - b, 3);
+		double e = Math.pow(10, 3);
+		double d = (c / e);
 
 		System.out.println(a);
 		System.out.println(b);
