@@ -10,14 +10,14 @@ public class Calculadora {
 		
 		
 		//valor do usuario 1
-		String num1 = JOptionPane.showInputDialog("Digite o primeiro valor?");
+		String num1 = JOptionPane.showInputDialog("Digite o primeiro valor:");
 		double numero1 = Double.parseDouble(num1);
 		//valor do usuario 2
-		String num2 = JOptionPane.showInputDialog("Digite o segundo valor?");
+		String num2 = JOptionPane.showInputDialog("Digite o segundo valor:");
 		double numero2 = Double.parseDouble(num2);
 		
 		//operação que o usuario deseja executar
-		String operador = JOptionPane.showInputDialog("Qual operação você gostaria de utilizar: \n + | - | * | / |");
+		String operador = JOptionPane.showInputDialog("Qual operação você gostaria de utilizar: \n  +   -   *   /   .");
 	
 		//variável para executar uma operação de soma
 		double soma = numero1 + numero2;
