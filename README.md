@@ -1,4 +1,4 @@
-Aqui estão todos os conceitos que aprendi através de estudos em cursos e prática em Java.
+Aqui estão todos os conceitos que aprendi através de estudos em cursos e práticas em Java.
 
 .Algoritmo e Estrutura de Dados *
 .Fundamentos da Linguagem Java *
