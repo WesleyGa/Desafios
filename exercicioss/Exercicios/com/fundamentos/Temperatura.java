@@ -1,4 +1,4 @@
-package com.exercicios;
+package com.fundamentos;
 
 import javax.swing.JOptionPane;
 

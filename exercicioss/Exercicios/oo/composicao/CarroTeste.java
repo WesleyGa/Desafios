@@ -5,9 +5,9 @@ public class CarroTeste {
 
 		Carro c = new Carro();
 		
+		c.fecharPorta();
 		c.ligar();
 	
-
 		c.acelerar();
 		c.acelerar();
 		System.out.println(c.motor.rpm());

@@ -2,7 +2,9 @@ package oo.composicao;
 
 public class Carro {
 
-	Motor motor;
+	final Motor motor;
+	
+	boolean portaFechada = false;
 
 	/*
 	 * Nesse caso, essa parte new Motor(this), literalmente está sendo passado como
@@ -31,6 +33,23 @@ public class Carro {
 	void ligar() {
 		motor.ligado = true;
 	}
+	
+	void fecharPorta() {
+		portaFechada = true;
+	}
+	
+	boolean portaAbertaa() {
+		
+		if (portaFechada) {
+		return motor.ligado = false;
+		}
+		return motor.ligado = true;
+		
+	}
+	
+	
+	
+	
 
 	// desligar
 	void desligar() {

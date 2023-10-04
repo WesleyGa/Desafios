@@ -1,4 +1,4 @@
-package com.exercicios;
+package com.fundamentos;
 
 public class DesafioOperadorA {
 	public static void main(String[] args) {
