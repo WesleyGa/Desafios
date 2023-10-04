@@ -1,4 +1,4 @@
-package oo.composicao;
+package oo.composicao.compras;
 
 public class Item {
 
@@ -14,6 +14,6 @@ public class Item {
 		this.preco = preco;
 		
 
-	}
+	} 
 
 }

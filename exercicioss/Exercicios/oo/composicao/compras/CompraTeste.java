@@ -1,4 +1,4 @@
-package oo.composicao;
+package oo.composicao.compras;
 
 public class CompraTeste {
 	public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class CompraTeste {
 		c1.adicionarItem(new Item("caneta", 4, 7.45));
 		c1.adicionarItem(new Item("lapis", 9, 7));
 		c1.adicionarItem(new Item("jaqueta", 6, 9.4));
-
+ 
 		Compra c2 = new Compra();
 		c2.cliente = "gabriel";
 		// adicionando com o metedo do array

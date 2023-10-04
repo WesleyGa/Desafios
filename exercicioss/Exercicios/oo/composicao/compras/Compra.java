@@ -1,4 +1,4 @@
-package oo.composicao;
+package oo.composicao.compras;
 
 import java.util.ArrayList;
 
@@ -6,7 +6,7 @@ public class Compra {
 
 	String cliente;
 	
-	
+	 
 	ArrayList<Item> itens = new ArrayList<Item>(); // lista de itens da compra
 
 	
