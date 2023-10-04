@@ -2,7 +2,7 @@ package oo.composicao;
 
 public class Motor {
 // um motor tem um carro
-	Carro carro;
+	final Carro carro;
 
 	
 	Motor(Carro carro) { // um motor tem um carrro
@@ -17,8 +17,10 @@ public class Motor {
 
 		if (!ligado) { // se nao estiver ligado
 			return 0;
-		} else { // se estiver ligado
+		} else if (ligado && carro.portaFechada) { // se estiver ligado
 			return (int) Math.round(fatorInjecao * 3000);
+		} else {
+			return 00;
 		}
 	}
 
