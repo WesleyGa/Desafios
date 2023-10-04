@@ -12,6 +12,7 @@ public class Item {
 		this.nome = nome;
 		this.quantidade = quantidade;
 		this.preco = preco;
+		
 
 	}
 

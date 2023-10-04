@@ -15,6 +15,7 @@ public class CompraTeste {
 		c2.itens.add(new Item("carrinho", 2, 9.81));
 		c2.itens.add(new Item("caderno", 10, 9));
 		c2.itens.add(new Item("corretivo", 19, 200));
+		
 
 		System.out.println("Cliente : " + c1.cliente);
 		for (Item itens : c1.itens) {
