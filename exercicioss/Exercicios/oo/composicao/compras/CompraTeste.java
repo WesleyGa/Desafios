@@ -4,14 +4,14 @@ public class CompraTeste {
 	public static void main(String[] args) {
 		Compra c1 = new Compra();
 		c1.cliente = "wesley";
-		// adicionando com o métedo de adicionar itens
+		// adicionando com o metodo de adicionar itens criado na classe compra
 		c1.adicionarItem(new Item("caneta", 4, 7.45));
 		c1.adicionarItem(new Item("lapis", 9, 7));
 		c1.adicionarItem(new Item("jaqueta", 6, 9.4));
  
 		Compra c2 = new Compra();
 		c2.cliente = "gabriel";
-		// adicionando com o metedo do array
+		// adicionando com o metodo do array
 		c2.itens.add(new Item("carrinho", 2, 9.81));
 		c2.itens.add(new Item("caderno", 10, 9));
 		c2.itens.add(new Item("corretivo", 19, 200));

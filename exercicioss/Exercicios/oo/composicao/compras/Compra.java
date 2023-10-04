@@ -10,7 +10,7 @@ public class Compra {
 	ArrayList<Item> itens = new ArrayList<Item>(); // lista de itens da compra
 
 	
-	void adicionarItem(Item item) { // metedo para adiconar os dados na lista.
+	void adicionarItem(Item item) { // metodo para adiconar os dados na lista.
 		this.itens.add(item);
 		item.compra = this;
 	}
