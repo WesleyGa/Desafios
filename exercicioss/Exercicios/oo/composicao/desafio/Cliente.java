@@ -10,7 +10,7 @@ public class Cliente {
 	ArrayList<Compra> compras = new ArrayList<Compra>();
 	
 	double obterValorTotal(){
-		double total = 0;
+		double total = 2;
 		
 		for (Compra compra : compras) {
 			
