@@ -6,23 +6,24 @@ public class Jogador {
 	int x;
 	int y;
 
-	boolean andar(String direcao) {
-		if ("direita".equalsIgnoreCase(direcao) && x <= 99) {
+	boolean andar(Direcao direcao) {
+		if (direcao == Direcao.LESTE && x <= 99) {
 			x++;
 		}
-		if ("esquerda".equalsIgnoreCase(direcao) && x >= 1) {
+		if (direcao == Direcao.OESTE && x >= 1) {
 			x--;
 		}
-		if ("cima".equalsIgnoreCase(direcao) && y >= 1) {
+		if (direcao == Direcao.NORTE && y >= 1) {
 			y--;
 		}
-		if ("baixo".equalsIgnoreCase(direcao) && y <= 99) {
+		if (direcao == Direcao.SUL && y <= 99) {
 			y++;
 		}
 		return false;
 	}
 
 	boolean atacar(Jogador oponente) {
+
 		int deltaX = x - oponente.x;
 
 		int deltaY = y - oponente.y;
