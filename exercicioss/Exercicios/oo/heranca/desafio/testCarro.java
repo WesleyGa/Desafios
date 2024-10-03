@@ -24,7 +24,10 @@ public class testCarro {
 		polo1.frear();
 		polo1.frear();
 		polo1.frear();
-		polo1.acelerar();
+		polo1.frear();
+	    polo1.acelerar();
+	    polo1.acelerar();
+	    polo1.frear();
 
 		System.out.println(polo1.velocidadeAtual);
 		
