@@ -5,7 +5,7 @@ public class Motor {
 	final Carro carro;
 
 	
-	Motor(Carro carro) { // um motor tem um carrro
+	Motor(Carro carro) { // um motor tem um carro
 		this.carro = carro;
 	}
 

@@ -3,9 +3,9 @@ package oo.heranca;
 public class Jogo {
 
 	public static void main(String[] args) {
-		Jogador j1 = new Jogador();
+		Monstro j1 = new Monstro();
 
-		Jogador j2 = new Jogador();
+		Heroi j2 = new Heroi();
 
 		j1.x = 10;
 		j1.y = 11;
