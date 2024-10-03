@@ -1,21 +1,21 @@
 package oo.heranca;
 
 public class Jogador {
-	int escudo = 50;
-	int vida = 100;
-	int x;
-	int y;
+	public int escudo = 50;
+	public int vida = 100;
+	public int x;
+	public int y;
 	
-	Jogador(){
+	public Jogador(){
 		this (0,0);
 	}
 	
-	Jogador(int x, int y	){
+	public Jogador(int x, int y	){
 		this.x = x;
 		this.y = y;
 	}
 
-	boolean andar(Direcao direcao) {
+	public boolean andar(Direcao direcao) {
 		if (direcao == Direcao.LESTE && x <= 99) {
 			x++;
 		}
@@ -31,7 +31,7 @@ public class Jogador {
 		return false;
 	}
 
-	boolean atacar(Jogador oponente) {
+	public boolean atacar(Jogador oponente) {
 
 		int deltaX = x - oponente.x;
 

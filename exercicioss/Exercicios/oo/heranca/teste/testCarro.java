@@ -1,4 +1,7 @@
-package oo.heranca.desafio;
+package oo.heranca.teste;
+
+import oo.heranca.desafio.Polo;
+import oo.heranca.desafio.Uno;
 
 public class testCarro {
 	public static void main(String[] args) {
@@ -28,6 +31,7 @@ public class testCarro {
 	    polo1.acelerar();
 	    polo1.acelerar();
 	    polo1.frear();
+	    
 
 		System.out.println(polo1.velocidadeAtual);
 		

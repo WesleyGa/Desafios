@@ -1,4 +1,8 @@
-package oo.heranca;
+package oo.heranca.teste;
+
+import oo.heranca.Direcao;
+import oo.heranca.Heroi;
+import oo.heranca.Monstro;
 
 public class Jogo {
 
@@ -7,6 +11,7 @@ public class Jogo {
 
 		Heroi j2 = new Heroi();
 
+		j1.andar(Direcao.LESTE);
 		j1.x = 10;
 		j1.y = 11;
 

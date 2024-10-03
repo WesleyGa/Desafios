@@ -2,7 +2,7 @@ package oo.heranca;
 
 public class Heroi extends Jogador {
 
-	boolean atacar(Jogador oponente) {
+	public boolean atacar(Jogador oponente) {
 
 		int deltaX = x - oponente.x;
 
